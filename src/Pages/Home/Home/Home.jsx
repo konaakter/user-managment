@@ -26,9 +26,9 @@ const Home = () => {
 
     return (
         <div className=' bg-slate-200 pt-11 pb-10'>
-            <div className=' bg-white  w-10/12 mx-auto shadow-2xl  '>
+            <div className=' bg-white w-11/12 mx-auto  lg:w-10/12 shadow-2xl  '>
 
-                <div className=' grid grid-cols-2  gap-4 py-24'>
+                <div className=' grid lg:grid-cols-2  gap-4 py-24'>
                     {
                         users.map(users =>
 
